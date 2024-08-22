@@ -19,7 +19,8 @@ Create the functionality for a broker to submit a new loan application.
         - outgoing_mortgage
         - outgoing_valuation
         - savings_contribution
-####I have made the form submitted to backend with all form data by replacing method calling from from tag to submit onclick event
+        - 
+### I have made the form submitted to backend with all form data by replacing method calling from from tag to submit onclick event
 <img width="933" alt="image" src="https://github.com/user-attachments/assets/fc73976c-f9b7-47e0-ab6b-393af8a47c09">
 
   2. Add a backend endpoint to receive the application submission
