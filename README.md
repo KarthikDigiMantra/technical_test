@@ -1,4 +1,4 @@
-## Task - Submit loan application
+## Task - Submit loan application - Status of each tasks updated inline - Postgres DB port changed to 5432
 Create the functionality for a broker to submit a new loan application.
 
   1. Show a modal after clicking the "Submit application" button, and allow the broker to enter the following information:
