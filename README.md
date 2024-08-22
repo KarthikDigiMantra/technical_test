@@ -1,3 +1,38 @@
+## Task - Submit loan application
+Create the functionality for a broker to submit a new loan application.
+
+  1. Show a modal after clicking the "Submit application" button, and allow the broker to enter the following information:
+   
+        - applicant_name
+        - applicant_email
+        - applicant_mobile_phone_number
+        - applicant_address
+        - annual_income_before_tax
+        - incoming_address
+        - incoming_deposit
+        - incoming_price
+        - incoming_stamp_duty
+        - loan_amount
+        - loan_duration
+        - monthly_expenses
+        - outgoing_address
+        - outgoing_mortgage
+        - outgoing_valuation
+        - savings_contribution
+# I have made the form submitted to backend with all form data by replacing method calling from from tag to submit onclick event
+<img width="933" alt="image" src="https://github.com/user-attachments/assets/fc73976c-f9b7-47e0-ab6b-393af8a47c09">
+
+  2. Add a backend endpoint to receive the application submission
+  3. Query all existing applications and get the average `loan_amount`
+  4. Save the new application to the `applications` table
+  5. Return if new loan's loan_amount is above or below the average
+
+
+
+
+
+
+
 <!-- omit in toc -->
 # Bridgit competency test
 
