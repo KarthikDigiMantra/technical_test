@@ -20,13 +20,27 @@ Create the functionality for a broker to submit a new loan application.
         - outgoing_valuation
         - savings_contribution
         - 
-### I have made the form submitted to backend with all form data by replacing method calling from from tag to submit onclick event
+### I have made the form submitted to backend with all form data by replacing method calling from form tag to submit onclick event
 <img width="933" alt="image" src="https://github.com/user-attachments/assets/fc73976c-f9b7-47e0-ab6b-393af8a47c09">
 
   2. Add a backend endpoint to receive the application submission
-  3. Query all existing applications and get the average `loan_amount`
-  4. Save the new application to the `applications` table
-  5. Return if new loan's loan_amount is above or below the average
+### There was create application end point (brokers/applications/create-applications?) available, I have reused it to submit the form application . I have rewritten to make it more applicable for the tasks given.
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/b9d8c665-02d9-4136-bf9e-1dc8e6023e04">
+     
+  4. Query all existing applications and get the average `loan_amount`
+### There was method to query average loan of all application which i have leveraged further for below tasks 
+<img width="669" alt="image" src="https://github.com/user-attachments/assets/facf3948-2571-44f1-96fa-48debea77534">
+
+     
+  6. Save the new application to the `applications` table
+### I have saved all of the form fields onto respective application table on postgres db. There was issue for strring columns which i thought it's was isolated issue on my side, however i have resolved them as well by having expliciate mapping of form body to application DTO 
+<img width="674" alt="image" src="https://github.com/user-attachments/assets/6291e210-806f-4502-8f02-e97d3a9d6d0d">
+
+  8. Return if new loan's loan_amount is above or below the average
+### I have checked the current application loan amount is greater than average and send the boolean flag accordingly as below 
+<img width="361" alt="image" src="https://github.com/user-attachments/assets/393629da-2780-4188-89ca-df17242df3ee">
+<img width="656" alt="image" src="https://github.com/user-attachments/assets/87b6f5be-9c0c-4682-91ab-ab77a45b7112">
+
 
 
 
